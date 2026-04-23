@@ -96,7 +96,7 @@ class _UserDetailsScreenState extends State<UserDetailsScreen> {
                           overflow: TextOverflow.ellipsis,
                         ),
                         Text(
-                          post.title,
+                          post.body,
                           style:
                               Theme.of(context).textTheme.bodyMedium?.copyWith(
                                     fontWeight: FontWeight.w400,

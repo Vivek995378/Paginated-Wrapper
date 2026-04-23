@@ -6,6 +6,7 @@ class UserDetailsDtoToEntity {
     return UserDetailsEntity(
       id: dto.id,
       title: dto.title,
+      body: dto.body,
     );
   }
 }
